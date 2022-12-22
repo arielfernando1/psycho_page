@@ -1,0 +1,89 @@
+.active-point {
+    width: 8px;
+    height: 8px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+.contact-item {
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 12px;
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.contact-item span {
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: auto;
+
+}
+.contact-item :hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    
+}
+
+.row h1 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0d6efd;
+    margin-bottom: 1rem;
+}
+
+.card-body {
+    padding: 1rem;
+
+}
+
+.card-body button {
+    margin: 0.5rem;
+    color: #0d6efd;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.chat-message-owner {
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-bottom: 2.5rem;
+
+}
+
+.chat-message-owner h5 {
+    color: #0d6efd;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.chat-message-destination {
+    text-align: left;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-bottom: 2.5rem;
+}
+
+.chat-message-destination h5 {
+    color: red;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.navbar-light {
+    color: #0d6efd;
+    margin-bottom: 2rem;
+}
+.chat-date {
+    text-align: center;
+    color: #0d6efd;
+    font-weight: 600;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
